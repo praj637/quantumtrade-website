@@ -1,0 +1,64 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="400" rx="10" fill="#F5F7FA" />
+  
+  <!-- Dashboard Background -->
+  <rect x="50" y="50" width="400" height="300" rx="10" fill="#FFFFFF" stroke="#E6E6E6" stroke-width="2" />
+  
+  <!-- Header Bar -->
+  <rect x="50" y="50" width="400" height="40" rx="10" fill="#0F2847" />
+  <circle cx="70" cy="70" r="10" fill="#00B4D8" />
+  <rect x="90" y="65" width="60" height="10" rx="5" fill="#FFFFFF" opacity="0.7" />
+  <rect x="380" y="65" width="50" height="10" rx="5" fill="#FFFFFF" opacity="0.5" />
+  
+  <!-- Main Chart -->
+  <rect x="70" y="110" width="240" height="120" rx="5" fill="#F5F7FA" stroke="#E6E6E6" stroke-width="1" />
+  
+  <!-- Chart Grid Lines -->
+  <line x1="70" y1="170" x2="310" y2="170" stroke="#E6E6E6" stroke-width="1" />
+  <line x1="70" y1="140" x2="310" y2="140" stroke="#E6E6E6" stroke-width="1" />
+  <line x1="70" y1="200" x2="310" y2="200" stroke="#E6E6E6" stroke-width="1" />
+  <line x1="110" y1="110" x2="110" y2="230" stroke="#E6E6E6" stroke-width="1" />
+  <line x1="150" y1="110" x2="150" y2="230" stroke="#E6E6E6" stroke-width="1" />
+  <line x1="190" y1="110" x2="190" y2="230" stroke="#E6E6E6" stroke-width="1" />
+  <line x1="230" y1="110" x2="230" y2="230" stroke="#E6E6E6" stroke-width="1" />
+  <line x1="270" y1="110" x2="270" y2="230" stroke="#E6E6E6" stroke-width="1" />
+  
+  <!-- Chart Lines -->
+  <path d="M70 200 L110 180 L150 190 L190 160 L230 140 L270 150 L310 120" stroke="#00B4D8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M70 210 L110 200 L150 210 L190 190 L230 180 L270 190 L310 170" stroke="#0F2847" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Chart Legend -->
+  <rect x="70" y="240" width="10" height="10" rx="2" fill="#00B4D8" />
+  <rect x="130" y="240" width="10" height="10" rx="2" fill="#0F2847" />
+  <rect x="85" y="240" width="40" height="10" rx="2" fill="#E6E6E6" />
+  <rect x="145" y="240" width="40" height="10" rx="2" fill="#E6E6E6" />
+  
+  <!-- Pie Chart -->
+  <circle cx="370" cy="150" r="50" fill="#F5F7FA" stroke="#E6E6E6" stroke-width="1" />
+  <path d="M370 150 L370 100 A50 50 0 0 1 420 150 Z" fill="#00B4D8" />
+  <path d="M370 150 L420 150 A50 50 0 0 1 370 200 Z" fill="#0F2847" />
+  <path d="M370 150 L370 200 A50 50 0 0 1 320 150 Z" fill="#00D4FF" />
+  <path d="M370 150 L320 150 A50 50 0 0 1 370 100 Z" fill="#1A3A5F" />
+  
+  <!-- Bar Chart -->
+  <rect x="330" y="220" width="20" height="40" rx="2" fill="#00B4D8" />
+  <rect x="360" y="210" width="20" height="50" rx="2" fill="#0F2847" />
+  <rect x="390" y="230" width="20" height="30" rx="2" fill="#00D4FF" />
+  <rect x="420" y="200" width="20" height="60" rx="2" fill="#1A3A5F" />
+  
+  <!-- Data Points -->
+  <circle cx="110" cy="180" r="4" fill="#FFFFFF" stroke="#00B4D8" stroke-width="2" />
+  <circle cx="150" cy="190" r="4" fill="#FFFFFF" stroke="#00B4D8" stroke-width="2" />
+  <circle cx="190" cy="160" r="4" fill="#FFFFFF" stroke="#00B4D8" stroke-width="2" />
+  <circle cx="230" cy="140" r="4" fill="#FFFFFF" stroke="#00B4D8" stroke-width="2" />
+  <circle cx="270" cy="150" r="4" fill="#FFFFFF" stroke="#00B4D8" stroke-width="2" />
+  <circle cx="310" cy="120" r="4" fill="#FFFFFF" stroke="#00B4D8" stroke-width="2" />
+  
+  <circle cx="110" cy="200" r="4" fill="#FFFFFF" stroke="#0F2847" stroke-width="2" />
+  <circle cx="150" cy="210" r="4" fill="#FFFFFF" stroke="#0F2847" stroke-width="2" />
+  <circle cx="190" cy="190" r="4" fill="#FFFFFF" stroke="#0F2847" stroke-width="2" />
+  <circle cx="230" cy="180" r="4" fill="#FFFFFF" stroke="#0F2847" stroke-width="2" />
+  <circle cx="270" cy="190" r="4" fill="#FFFFFF" stroke="#0F2847" stroke-width="2" />
+  <circle cx="310" cy="170" r="4" fill="#FFFFFF" stroke="#0F2847" stroke-width="2" />
+</svg>

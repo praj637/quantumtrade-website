@@ -1,0 +1,50 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="400" rx="10" fill="#F5F7FA" />
+  
+  <!-- Shield Background -->
+  <path d="M250 50 L350 100 L350 200 C350 250 310 300 250 330 C190 300 150 250 150 200 L150 100 L250 50Z" fill="#E6F7FF" stroke="#0F2847" stroke-width="4" stroke-linejoin="round" />
+  
+  <!-- Shield Inner Border -->
+  <path d="M250 80 L325 120 L325 200 C325 240 290 280 250 300 C210 280 175 240 175 200 L175 120 L250 80Z" fill="none" stroke="#0F2847" stroke-width="2" stroke-dasharray="4 4" stroke-linejoin="round" />
+  
+  <!-- Risk Gauge Background -->
+  <path d="M250 120 C290 120 320 150 320 190 C320 230 290 260 250 260 C210 260 180 230 180 190 C180 150 210 120 250 120Z" fill="#FFFFFF" stroke="#E6E6E6" stroke-width="2" />
+  
+  <!-- Risk Gauge Sections -->
+  <path d="M250 190 L250 140 A50 50 0 0 1 293 210 Z" fill="#4CAF50" opacity="0.7" />
+  <path d="M250 190 L293 210 A50 50 0 0 1 250 240 Z" fill="#FFC107" opacity="0.7" />
+  <path d="M250 190 L250 240 A50 50 0 0 1 207 210 Z" fill="#F44336" opacity="0.7" />
+  <path d="M250 190 L207 210 A50 50 0 0 1 250 140 Z" fill="#2196F3" opacity="0.7" />
+  
+  <!-- Risk Gauge Needle -->
+  <path d="M250 190 L280 160" stroke="#0F2847" stroke-width="3" stroke-linecap="round" />
+  <circle cx="250" cy="190" r="10" fill="#FFFFFF" stroke="#0F2847" stroke-width="2" />
+  <circle cx="250" cy="190" r="5" fill="#0F2847" />
+  
+  <!-- Risk Level Indicators -->
+  <circle cx="290" cy="150" r="8" fill="#4CAF50" />
+  <rect x="300" y="145" width="40" height="10" rx="2" fill="#E6E6E6" />
+  
+  <circle cx="290" cy="180" r="8" fill="#FFC107" />
+  <rect x="300" y="175" width="40" height="10" rx="2" fill="#E6E6E6" />
+  
+  <circle cx="290" cy="210" r="8" fill="#F44336" />
+  <rect x="300" y="205" width="40" height="10" rx="2" fill="#E6E6E6" />
+  
+  <circle cx="290" cy="240" r="8" fill="#2196F3" />
+  <rect x="300" y="235" width="40" height="10" rx="2" fill="#E6E6E6" />
+  
+  <!-- Stop Loss Line -->
+  <line x1="150" y1="280" x2="350" y2="280" stroke="#F44336" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="150" y="290" width="60" height="20" rx="5" fill="#F44336" opacity="0.1" stroke="#F44336" stroke-width="1" />
+  <rect x="160" y="295" width="40" height="10" rx="2" fill="#F44336" opacity="0.7" />
+  
+  <!-- Take Profit Line -->
+  <line x1="150" y1="340" x2="350" y2="340" stroke="#4CAF50" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="150" y="350" width="60" height="20" rx="5" fill="#4CAF50" opacity="0.1" stroke="#4CAF50" stroke-width="1" />
+  <rect x="160" y="355" width="40" height="10" rx="2" fill="#4CAF50" opacity="0.7" />
+  
+  <!-- Chart Line -->
+  <path d="M150 320 L180 310 L210 330 L240 300 L270 320 L300 290 L330 310 L350 300" stroke="#00B4D8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
